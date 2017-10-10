@@ -6,4 +6,4 @@ RUN apt-get -y update \
  && apt-get -y install mc \
  && apt-get -y clean 
 
-WORKIR /root
+WORKDIR /root
